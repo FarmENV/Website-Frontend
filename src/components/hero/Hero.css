@@ -1,0 +1,16 @@
+.Hero {
+    width: 100%;
+}
+
+.Hero__img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Hero__color_filter {
+    position: absolute;
+    background-color: rgba(243, 163, 51, 0.2);
+}
