@@ -12,5 +12,12 @@
 
 .Hero__color_filter {
     position: absolute;
+    width: 100%;
     background-color: rgba(243, 163, 51, 0.2);
+}
+
+.Hero__background_color {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(20, 12, 5);
 }

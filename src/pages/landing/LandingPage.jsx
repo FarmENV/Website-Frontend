@@ -5,6 +5,9 @@ import PigSilhouette from '../../images/pig.png'
 import CameraSilhouette from '../../images/camera.png'
 import Kit from '../../images/kit.png'
 import Button from '../../components/mainButton/MainButton'
+import Footer from '../../components/footer/Footer'
+import Navbar from '../../components/nav/Navbar'
+import HeroImage from '../../images/heroBackground.png'
 
 const LandingPage = props => {
   return(
@@ -13,8 +16,9 @@ const LandingPage = props => {
         <div className="Landing__content font-face-ap">
           <h1 className="Landing__title">LA CALIDAD DE<br/>TU CUIDADO</h1>
         </div>
-        <Hero h={'100vh'}></Hero>
-        <div className="Info__content">
+      <Navbar  theme={"Navbar__transparent"}></Navbar>
+      <Hero heroImage={HeroImage} h={'100vh'} w={"100%"}></Hero>
+        <div className="Info__content_whatis">
           <h3 className="Info__title font-face-ap">¿QUÉ ES FarmENV?</h3>
           <p className="Info__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend felis sapien, eget condimentum elit gravida sed. Ut sodales turpis eget lacinia ullamcorper. Donec luctus, augue et cursus semper, metus augue vehicula metus, non ultricies sem mi eget erat. Etiam blandit, nibh et hendrerit consectetur, elit neque tempor nunc, vestibulum fermentum orci neque sed ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
         </div>
@@ -39,6 +43,7 @@ const LandingPage = props => {
           </div>
         </div>
       </div>
+      <Footer s={{bottom:0}}></Footer>
     </React.Fragment>
   )
 }

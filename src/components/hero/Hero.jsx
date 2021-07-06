@@ -1,6 +1,5 @@
 import React from 'react'
 import './Hero.css'
-import HeroImage from '../../images/heroBackground.png'
 
 const Hero = props => {
   return(
@@ -8,7 +7,7 @@ const Hero = props => {
       <div className="Hero">
         <div className="Hero__color_filter" style={{height: props.h}}></div>
         <div className="Hero__img" style={{height: props.h}}>
-          <img src={HeroImage} alt="herobackground"/>
+        <img src={props.heroImage} alt="herobackground" style={{height: props.h, width: props.w}}/>
         </div>
       </div>
     </React.Fragment>

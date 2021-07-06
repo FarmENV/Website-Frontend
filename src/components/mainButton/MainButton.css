@@ -23,3 +23,33 @@
 .Button:hover p{
     color: white;
 }
+
+.ButtonForms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 2px solid  rgb(78, 118, 38);
+    margin-top: 3em;
+    background-color: white;
+    margin-inline: 70px;
+    border-radius: 10px;
+}
+
+.ButtonForms p{
+    color:rgb(33, 20, 8);
+    font-size: 1.1em;
+    margin: 8px 60px;
+    margin: 8px 60px;
+}
+
+.ButtonForms:hover {
+    background-color: rgb(78, 118, 38);
+    border: 2px solid rgb(78, 118, 38);
+    font-weight: bold;
+    margin-inline: 70px;
+}
+
+.ButtonForms:hover p{
+    color: white;
+}

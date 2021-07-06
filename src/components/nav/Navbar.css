@@ -1,16 +1,16 @@
 .Navbar {
     display: flex;
     align-content: center;
-    position: absolute;
-    height: 60px;
+    height: 8vh;
     width: 100%;
     background-color: rgb(20, 12, 5);
+    position: absolute;
     z-index: 2;
 }
 
 .Navbar img {
     margin: 12px 0 10px 20px;
-    height: 30px;
+    height: 50px;
 }
 
 .Navbar__transparent {
@@ -26,4 +26,20 @@
 .Navbar__transparent img {
     margin: 12px 0 10px 20px;
     height: 50px;
+}
+
+.link {
+    margin-left: 15vh;
+}
+
+.nav__links{
+    text-decoration: none;
+    color: white;
+}
+
+.Links__list {
+    display: flex;
+    margin-top: 1.5vh;
+    margin-left: 100vh;
+    justify-content: space-between;
 }

@@ -97,3 +97,13 @@
     margin-right: 8.5vh;
     margin-left: 8.5vh;
 }
+
+.Info__content_whatis {
+    margin-top: 15vh;
+    margin-bottom: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
