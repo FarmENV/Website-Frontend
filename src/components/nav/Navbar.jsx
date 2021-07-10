@@ -12,6 +12,11 @@ const Navbar = props => {
         </Link>
         <div className="links">
           <div className="Links__list mt-4">
+          <div className="link">
+              <Link className="nav__links">
+                <p>Preguntas frecuentes</p>
+              </Link>
+            </div>
             <div className="link">
               <Link className="nav__links">
                 <p>Kits</p>
