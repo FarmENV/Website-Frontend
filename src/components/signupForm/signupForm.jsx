@@ -15,7 +15,37 @@ class SignupForm extends React.Component {
                         </div>
                         <div className="form-group mb-2">
                             <label className="mb-1">
-                                Email
+                                First name:
+                            </label>
+                            <input 
+                                type="text"
+                                className="form-control" 
+                                name="firstName"
+                            />
+                        </div>
+                        <div className="form-group mb-2">
+                            <label className="mb-1">
+                                Last name:
+                            </label>
+                            <input 
+                                type="text"
+                                className="form-control" 
+                                name="lastName"
+                            />
+                        </div>
+                        <div className="form-group mb-2">
+                            <label className="mb-1">
+                                Username:
+                            </label>
+                            <input 
+                                type="text"
+                                className="form-control" 
+                                name="username"
+                            />
+                        </div>
+                        <div className="form-group mb-2">
+                            <label className="mb-1">
+                                Email:
                             </label>
                             <input 
                                 type="text"
@@ -32,13 +62,17 @@ class SignupForm extends React.Component {
                             className="form-control"
                             name="password"/>
                         </div>
-                        <Button theme={"ButtonForms"} contentText={'Log in'} link={"/"}></Button>
-                        <div className="extra__links">
-                            <a href="" className="new_password">
-                                Forgot your password?
-                            </a>
-                            <p>New around? <Link to="/signup">Sign Up</Link></p>
+                        <div className="form-group mb-2">
+                            <label className="mb-1">
+                                Password confirmation:
+                            </label>
+                            <input 
+                            type="password" 
+                            className="form-control"
+                            name="password"/>
                         </div>
+                        <Button theme={"ButtonForms"} contentText={'Sign up'} link={"/"}></Button>
+                        
                     </form>
                 </div>
             </React.Fragment>
