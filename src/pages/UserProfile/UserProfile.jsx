@@ -14,6 +14,7 @@ class UserProfile extends React.Component {
                         <div className="user__Pro">
                             <h2 className="user__Title">User Name</h2>
                             <h3>Edit Profile</h3>
+                            <h3 className="log__out">Log out</h3>
                         </div>
                         <div className="Environment_sett">
                             <h1 className="title__Env">Your environments:</h1>
@@ -32,7 +33,9 @@ class UserProfile extends React.Component {
                         </div>
                     </div>
                 </div>
+                
                 <Navbar theme={"Navbar"}></Navbar>
+                
                 
             </React.Fragment>
         )
