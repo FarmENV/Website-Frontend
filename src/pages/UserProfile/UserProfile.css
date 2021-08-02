@@ -25,7 +25,7 @@
     background-image: url(../../images/cerdos.jpg);
     width: 90em;
     height: 45em;
-    background-size: 100em;
+    background-size: 85em;
     text-align: center;
 }
 
@@ -41,4 +41,15 @@
     margin-left: 10em;
     margin-top: 3em;
     border-radius: 2em;
+}
+
+.environ__Pic {
+    background-image: url(../../images/pig.png);
+    height: 8em;
+    width: 12em;   
+    background-size: 100%;
+    border-radius: 15em;
+    margin-left: 2em;
+    margin-bottom: -2em;
+
 }

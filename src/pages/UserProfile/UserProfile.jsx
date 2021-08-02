@@ -18,16 +18,22 @@ class UserProfile extends React.Component {
                         <div className="Environment_sett">
                             <h1 className="title__Env">Your environments:</h1>
                             <div className="environment_one">
-                                <h2></h2>
-                                <img src="" alt="" />
+                                <br />
+                                <div className="environ__Pic">
+                                    
+                                </div>
                             </div>
                             <div className="environment_one">
-                                <img src="../../images/pig.png" alt="" />
+                            <br />
+                                <div className="environ__Pic">
+                                    
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <Navbar theme={"Navbar"}></Navbar>
+                
             </React.Fragment>
         )
     }
