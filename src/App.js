@@ -7,6 +7,7 @@ import './App.css'
 import Login from './pages/login/Login'
 import UserProfile from './pages/UserProfile/UserProfile'
 import Signup from './pages/signup/signup'
+import NewEnv from './pages/NewEnv/newEnv'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path='/signup' component={Signup}></Route>
           <Route exact path='/faq' component={freQuestions}></Route>
           <Route exact path='/userpro' component={UserProfile}></Route>
+          <Route exact path='/newenv' component={NewEnv}></Route>
         </Switch>
       </Layout>
     </BrowserRouter>
