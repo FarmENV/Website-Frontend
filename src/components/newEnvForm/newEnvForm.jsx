@@ -9,6 +9,9 @@ class NewEnvForm extends React.Component {
             <React.Fragment>
                 <div className="LoginForm">
                     <form action="">
+                        <div className="div__title">
+                            <h1 className="Environ__text">New Environment</h1>
+                        </div>
                         <div className="form-group mb-2">
                             <label className="mb-1">
                                 Environment name:
@@ -23,9 +26,9 @@ class NewEnvForm extends React.Component {
                             <label className="mb-1">
                                 Environment type:
                             </label>
-                            <select name="select">
+                            <select name="select" className="form-control">
                                 <option value="value1">Value 1</option>
-                                <option value="value2" selected>Value 2</option>
+                                <option value="value2">Value 2</option>
                                 <option value="value3">Value 3</option>
                             </select>
                         </div>
