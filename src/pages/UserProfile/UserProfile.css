@@ -1,0 +1,59 @@
+.Landing__content{
+    margin-top: 1em;
+}
+
+.user__Pro {
+    margin-top: 3em;
+    margin-left: -85em;
+    width:35em;
+    height: 45em;
+    color: #000000;
+    text-align: center;
+    background-color: #DFF8C6;
+}
+
+.user__Title{
+    margin-top: 5em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.log__out {
+    margin-top: 10em;
+}
+
+.Environment_sett{
+    margin-top: -41em;
+    margin-left: 10em;
+    margin-right: -30em;
+    background-image: url(../../images/cerdos.jpg);
+    width: 90em;
+    height: 45em;
+    background-size: 85em;
+    text-align: center;
+}
+
+.title__Env {
+    margin-top: 1em;
+    color: #EFEFEF;
+}
+
+.environment_one{
+    background-color: #4e7626b0;
+    width: 65em;
+    height: 12em;
+    margin-left: 10em;
+    margin-top: 3em;
+    border-radius: 2em;
+}
+
+.environ__Pic {
+    background-image: url(../../images/pig.png);
+    height: 8em;
+    width: 12em;   
+    background-size: 100%;
+    border-radius: 15em;
+    margin-left: 2em;
+    margin-bottom: -2em;
+
+}
