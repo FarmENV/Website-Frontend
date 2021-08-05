@@ -1,0 +1,65 @@
+.profile__user {
+    margin-top: 4em;
+    margin-left: -85em;
+    width: 35em;
+    height: 910px;
+    color: #000000;
+    text-align: center;
+    background-color: #DFF8C6;
+}
+
+.user__name{
+    margin-top: 5em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.log__out {
+    margin-top: 4em;
+}
+
+.env__title{
+    margin-top: -39em;
+    margin-left: 33em;
+    margin-bottom: 2em;
+}
+
+.env__variables{
+        margin-top:0em;
+        margin-left: 2em;
+        margin-right: -30em;
+        background-image: url(https://okdiario.com/img/2019/12/13/5-consejos-para-evitar-que-cante-tu-gallo.jpg);
+        width: 70em;
+        height: 30em;
+        background-size: 70em;
+        text-align: center;
+        border-radius: 2em;
+        box-shadow: 0px 0px 30px rgba(7, 7, 7, 0.281);
+    }
+
+table{
+    margin-top: 6em;
+     height: 27em;
+     width:  60em; 
+    }
+
+.back_color{
+    background-color: rgba(255, 255, 255, 0.192);
+    margin-top: -6em;
+    width: 70em;
+    height: 30em;
+}
+button{
+width: 100px;
+height: 43px;
+}
+
+.button__edit{
+    border-radius: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgba(44, 19, 7, 0.342);
+    border: 5px solid rgb(109, 158, 77);
+    margin-top: -70px;
+}
