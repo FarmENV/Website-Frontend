@@ -19,7 +19,7 @@ const Navbar = props => {
               </Link>
             </div>
             <div className="link" >
-              <Link className="nav__links">
+              <Link to="/kits"className="nav__links">
                 <p>Kits</p>
               </Link>
             </div>

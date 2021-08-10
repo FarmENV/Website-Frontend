@@ -8,6 +8,7 @@ import Login from './pages/login/Login'
 import UserProfile from './pages/UserProfile/UserProfile'
 import Signup from './pages/signup/signup'
 import NewEnv from './pages/NewEnv/newEnv'
+import KitsSensor from './pages/SensorKits/kits'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact path='/faq' component={freQuestions}></Route>
           <Route exact path='/userpro' component={UserProfile}></Route>
           <Route exact path='/newenv' component={NewEnv}></Route>
+          <Route exact path='/kits' component={KitsSensor}></Route>
         </Switch>
       </Layout>
     </BrowserRouter>
