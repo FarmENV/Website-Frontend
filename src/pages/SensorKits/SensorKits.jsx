@@ -1,5 +1,5 @@
 import React from 'react'
-import './kits.css'
+import './SensorKits.css'
 import Temperature from '../../images/temperature.jpg'
 import Gas from '../../images/gas.jpg'
 import Force from '../../images/force.jpg'
@@ -14,9 +14,9 @@ class KitsSensor extends React.Component {
     <React.Fragment>
         
       <div className="Landing">
-          <div>
-      <Navbar theme={"Navbar"}></Navbar>  
-      </div>
+        <div className="sensors__content">
+            <Navbar theme={"Navbar"}></Navbar>  
+        </div>
         <div className="Info__content_kit">
         <div className="Info__sensor_img" >
             <img src={Temperature} alt="kit" width="70%" height="70%"/>

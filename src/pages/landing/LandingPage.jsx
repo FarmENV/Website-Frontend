@@ -4,15 +4,10 @@ import Hero from '../../components/hero/Hero'
 import PigSilhouette from '../../images/pig.png'
 import CameraSilhouette from '../../images/camera.png'
 import Kit from '../../images/kit.png'
-import Temperature from '../../images/temperature.jpg'
-import Gas from '../../images/gas.jpg'
-import Force from '../../images/force.jpg'
-import Humidity from '../../images/humididy.jpg'
 import Button from '../../components/mainButton/MainButton'
 import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/nav/Navbar'
 import HeroImage from '../../images/heroBackground.png'
-
 
 const LandingPage = props => {
   return(
@@ -29,7 +24,7 @@ const LandingPage = props => {
         </div>
         <hr/>
         <div className="Info__content">
-          <h3 className="Info__title font-face-ap">¿CÓMO FUNCIONA?</h3>
+          <h3 className="Info__title font-face-ap">¿CÓMO FUNCTIONA?</h3>
           <p className="Info__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend felis sapien, eget condimentum elit gravida sed. Ut sodales turpis eget lacinia ullamcorper. Donec luctus, augue et cursus semper, metus augue vehicula metus, non ultricies sem mi eget erat. Etiam blandit, nibh et hendrerit consectetur, elit neque tempor nunc, vestibulum fermentum orci neque sed ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
           <div className="silhouettes">
             <img src={PigSilhouette} alt="pig"/>
@@ -44,44 +39,7 @@ const LandingPage = props => {
           <div className="Info__kit_info">
             <h3 className="Info__title_kit font-face-ap">KIT DE SENSORES</h3>
             <p className="Info__paragraph_kit">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend felis sapien, eget condimentum elit gravida sed. Ut sodales turpis eget lacinia ullamcorper. Donec luctus, augue et cursus semper, metus augue vehicula metus, non ultricies sem mi eget erat. Etiam blandit, nibh et hendrerit consectetur, elit neque tempor nunc, vestibulum fermentum orci neque sed ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
-            <Button theme={"Button"} contentText={'INFORMACION DEL KIT'} link={"/"}></Button>
-          </div>
-        </div>
-        <hr/>
-        <div className="Info__content_kit">
-        <div className="Info__sensor_img" >
-            <img src={Temperature} alt="kit" width="70%" height="70%"/>
-          </div>
-          <div className="Info__sensor_info">
-            <h3 className="Info__title_sensor font-face-ap">Sensor de temperatura</h3>
-            <p className="Info__paragraph_kit">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend felis sapien, eget condimentum elit gravida sed. Ut sodales turpis eget lacinia ullamcorper. Donec luctus, augue et cursus semper, metus augue vehicula metus, non ultricies sem mi eget erat. Etiam blandit, nibh et hendrerit consectetur, elit neque tempor nunc, vestibulum fermentum orci neque sed ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
-          </div>
-        </div>
-        <div className="Info__content_kit">
-        <div className="Info__sensor_img" >
-            <img src={Humidity} alt="kit" width="60%" height="60%"/>
-          </div>
-          <div className="Info__sensor_info">
-            <h3 className="Info__title_sensor font-face-ap">Sensor de Humedad</h3>
-            <p className="Info__paragraph_kit">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend felis sapien, eget condimentum elit gravida sed. Ut sodales turpis eget lacinia ullamcorper. Donec luctus, augue et cursus semper, metus augue vehicula metus, non ultricies sem mi eget erat. Etiam blandit, nibh et hendrerit consectetur, elit neque tempor nunc, vestibulum fermentum orci neque sed ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
-          </div>
-        </div>
-        <div className="Info__content_kit">
-        <div className="Info__sensor_img" >
-            <img src={Gas} alt="kit" width="60%" height="60%"/>
-          </div>
-          <div className="Info__sensor_info">
-            <h3 className="Info__title_sensor font-face-ap">Sensor de Gas</h3>
-            <p className="Info__paragraph_kit">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend felis sapien, eget condimentum elit gravida sed. Ut sodales turpis eget lacinia ullamcorper. Donec luctus, augue et cursus semper, metus augue vehicula metus, non ultricies sem mi eget erat. Etiam blandit, nibh et hendrerit consectetur, elit neque tempor nunc, vestibulum fermentum orci neque sed ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
-          </div>
-        </div>
-        <div className="Info__content_kit">
-        <div className="Info__sensor_img" >
-            <img src={Force} alt="kit" width="80%" height="80%"/>
-          </div>
-          <div className="Info__sensor_info">
-            <h3 className="Info__title_sensor font-face-ap">Sensor de Gas</h3>
-            <p className="Info__paragraph_kit">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend felis sapien, eget condimentum elit gravida sed. Ut sodales turpis eget lacinia ullamcorper. Donec luctus, augue et cursus semper, metus augue vehicula metus, non ultricies sem mi eget erat. Etiam blandit, nibh et hendrerit consectetur, elit neque tempor nunc, vestibulum fermentum orci neque sed ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
+            <Button theme={"Button"} contentText={'INFORMACION DEL KIT'} link={"/sensorKits"}></Button>
           </div>
         </div>
       </div>

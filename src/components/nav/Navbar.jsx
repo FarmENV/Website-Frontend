@@ -1,7 +1,6 @@
 import React from 'react'
 import './Navbar.css'
 import {Link} from 'react-router-dom'
-import freQuestions from '../../pages/FrequentQuestions/freQuestions'
 import Logo from '../../images/logoComplete.png'
 
 const Navbar = props => {
@@ -19,7 +18,7 @@ const Navbar = props => {
               </Link>
             </div>
             <div className="link" >
-              <Link to="/kits"className="nav__links">
+              <Link to="sensorKits" className="nav__links">
                 <p>Kits</p>
               </Link>
             </div>
