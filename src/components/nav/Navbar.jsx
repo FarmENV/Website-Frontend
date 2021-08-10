@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import {Link} from 'react-router-dom'
+import freQuestions from '../../pages/FrequentQuestions/freQuestions'
 import Logo from '../../images/logoComplete.png'
 
 const Navbar = props => {
@@ -13,23 +14,23 @@ const Navbar = props => {
         <div className="links">
           <div className="Links__list mt-4">
           <div className="link">
-              <Link className="nav__links">
+              <Link to="/faq" className="nav__links">
                 <p>Preguntas frecuentes</p>
               </Link>
             </div>
-            <div className="link">
-              <Link className="nav__links">
+            <div className="link" >
+              <Link to="/kits"className="nav__links">
                 <p>Kits</p>
               </Link>
             </div>
-            <div className="link">
-              <Link className="nav__links">
-                <p>Iniciar Sesión</p>
+            <div className="link" >
+              <Link to="/login" className="nav__links">
+                <p>Ayuda</p>
               </Link>
             </div>
-            <div className="link">
-              <Link className="nav__links">
-                <p>Registrarse</p>
+            <div className="link" >
+              <Link  to="/signup"className="nav__links">
+                <p>Contacto</p>
               </Link>
             </div>
           </div>

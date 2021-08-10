@@ -11,6 +11,7 @@ import NewEnv from './pages/NewEnv/newEnv'
 import Envprofile from './pages/Envprofile/ProfilEnv'
 import Envconfig from './pages/EnvConfig/Envconfig'
 import Profsettings from './pages/ProfSettings/Profsettings'
+import KitsSensor from './pages/SensorKits/kits'
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
           <Route exact path='/envpro' component={Envprofile}></Route>     
           <Route exact path='/envconfig' component={Envconfig}></Route>     
           <Route exact path='/profsettings' component={Profsettings}></Route> 
+          <Route exact path='/newenv' component={NewEnv}></Route>
+          <Route exact path='/kits' component={KitsSensor}></Route>
         </Switch>
       </Layout>
     </BrowserRouter>

@@ -1,53 +1,22 @@
 import React from 'react'
-import './LandingPage.css'
-import Hero from '../../components/hero/Hero'
-import PigSilhouette from '../../images/pig.png'
-import CameraSilhouette from '../../images/camera.png'
-import Kit from '../../images/kit.png'
+import './kits.css'
 import Temperature from '../../images/temperature.jpg'
 import Gas from '../../images/gas.jpg'
 import Force from '../../images/force.jpg'
 import Humidity from '../../images/humididy.jpg'
-import Button from '../../components/mainButton/MainButton'
 import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/nav/Navbar'
-import HeroImage from '../../images/heroBackground.png'
 
 
-const LandingPage = props => {
+class KitsSensor extends React.Component {
+    render(){
   return(
     <React.Fragment>
+        
       <div className="Landing">
-        <div className="Landing__content font-face-ap">
-          <h1 className="Landing__title">LA CALIDAD DE<br/>TU CUIDADO</h1>
-        </div>
-      <Navbar  theme={"Navbar__transparent"}></Navbar>
-      <Hero heroImage={HeroImage} h={'100vh'} w={"100%"}></Hero>
-        <div className="Info__content_whatis">
-          <h3 className="Info__title font-face-ap">¿QUÉ ES FarmENV?</h3>
-          <p className="Info__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend felis sapien, eget condimentum elit gravida sed. Ut sodales turpis eget lacinia ullamcorper. Donec luctus, augue et cursus semper, metus augue vehicula metus, non ultricies sem mi eget erat. Etiam blandit, nibh et hendrerit consectetur, elit neque tempor nunc, vestibulum fermentum orci neque sed ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
-        </div>
-        <hr/>
-        <div className="Info__content">
-          <h3 className="Info__title font-face-ap">¿CÓMO FUNCIONA?</h3>
-          <p className="Info__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend felis sapien, eget condimentum elit gravida sed. Ut sodales turpis eget lacinia ullamcorper. Donec luctus, augue et cursus semper, metus augue vehicula metus, non ultricies sem mi eget erat. Etiam blandit, nibh et hendrerit consectetur, elit neque tempor nunc, vestibulum fermentum orci neque sed ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
-          <div className="silhouettes">
-            <img src={PigSilhouette} alt="pig"/>
-            <img src={CameraSilhouette} alt="camera" />
-          </div>
-        </div>
-        <hr/>
-        <div className="Info__content_kit">
-          <div className="Info__kit_img">
-            <img src={Kit} alt="kit"/>
-          </div>
-          <div className="Info__kit_info">
-            <h3 className="Info__title_kit font-face-ap">KIT DE SENSORES</h3>
-            <p className="Info__paragraph_kit">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend felis sapien, eget condimentum elit gravida sed. Ut sodales turpis eget lacinia ullamcorper. Donec luctus, augue et cursus semper, metus augue vehicula metus, non ultricies sem mi eget erat. Etiam blandit, nibh et hendrerit consectetur, elit neque tempor nunc, vestibulum fermentum orci neque sed ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
-            <Button theme={"Button"} contentText={'INFORMACION DEL KIT'} link={"/"}></Button>
-          </div>
-        </div>
-        <hr/>
+          <div>
+      <Navbar theme={"Navbar"}></Navbar>  
+      </div>
         <div className="Info__content_kit">
         <div className="Info__sensor_img" >
             <img src={Temperature} alt="kit" width="70%" height="70%"/>
@@ -89,5 +58,6 @@ const LandingPage = props => {
     </React.Fragment>
   )
 }
+}
 
-export default LandingPage
+export default KitsSensor

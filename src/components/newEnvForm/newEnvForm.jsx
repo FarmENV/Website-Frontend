@@ -12,8 +12,8 @@ class NewEnvForm extends React.Component {
                         <div className="div__title">
                             <h1 className="Environ__text">New Environment</h1>
                         </div>
-                        <div className="form-group mb-2">
-                            <label className="mb-1">
+                        <div className="form-group mb-3">
+                            <label className="mb-2">
                                 Environment name:
                             </label>
                             <input 
@@ -23,7 +23,7 @@ class NewEnvForm extends React.Component {
                             />
                         </div>
                         <div className="form-group mb-2">
-                            <label className="mb-1">
+                            <label className="mb-2">
                                 Environment type:
                             </label>
                             <select name="select" className="form-control">

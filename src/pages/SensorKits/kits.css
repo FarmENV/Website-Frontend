@@ -17,6 +17,10 @@
     text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.6);
 }
 
+.Landing {
+    margin-top: -8vh;
+}
+
 .Landing hr {
     margin-top: 10vh;
     width: 80%;
@@ -123,7 +127,7 @@
 }
 
 .Info__sensor_img{
-    margin-top: -8vh;
+    margin-top: 4vh;
     margin-bottom: 18vh;
     display: flex;
     flex-direction: column;

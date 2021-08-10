@@ -8,7 +8,7 @@ class SignupForm extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div className="LoginForm">
+                <div className="SignupForm">
                     <form action="">
                         <div className="image__container">
                             <img src={Logo} alt="" />
