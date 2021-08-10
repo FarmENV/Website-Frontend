@@ -4,10 +4,13 @@ import Hero from '../../components/hero/Hero'
 import PigSilhouette from '../../images/pig.png'
 import CameraSilhouette from '../../images/camera.png'
 import Kit from '../../images/kit.png'
+import Temperature from '../../images/temperature.jpg'
+import Humidity from '../../images/humididy.jpg'
 import Button from '../../components/mainButton/MainButton'
 import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/nav/Navbar'
 import HeroImage from '../../images/heroBackground.png'
+
 
 const LandingPage = props => {
   return(
@@ -40,6 +43,25 @@ const LandingPage = props => {
             <h3 className="Info__title_kit font-face-ap">KIT DE SENSORES</h3>
             <p className="Info__paragraph_kit">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend felis sapien, eget condimentum elit gravida sed. Ut sodales turpis eget lacinia ullamcorper. Donec luctus, augue et cursus semper, metus augue vehicula metus, non ultricies sem mi eget erat. Etiam blandit, nibh et hendrerit consectetur, elit neque tempor nunc, vestibulum fermentum orci neque sed ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
             <Button theme={"Button"} contentText={'INFORMACION DEL KIT'} link={"/"}></Button>
+          </div>
+        </div>
+        <hr/>
+        <div className="Info__content_kit">
+        <div className="Info__sensor_img" >
+            <img src={Temperature} alt="kit" width="70%" height="70%"/>
+          </div>
+          <div className="Info__sensor_info">
+            <h3 className="Info__title_sensor font-face-ap">Temperature sensor</h3>
+            <p className="Info__paragraph_kit">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend felis sapien, eget condimentum elit gravida sed. Ut sodales turpis eget lacinia ullamcorper. Donec luctus, augue et cursus semper, metus augue vehicula metus, non ultricies sem mi eget erat. Etiam blandit, nibh et hendrerit consectetur, elit neque tempor nunc, vestibulum fermentum orci neque sed ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
+          </div>
+        </div>
+        <div className="Info__content_kit">
+        <div className="Info__sensor_img" >
+            <img src={Humidity} alt="kit" width="70%" height="70%"/>
+          </div>
+          <div className="Info__sensor_info">
+            <h3 className="Info__title_sensor font-face-ap">Humidity sensor</h3>
+            <p className="Info__paragraph_kit">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend felis sapien, eget condimentum elit gravida sed. Ut sodales turpis eget lacinia ullamcorper. Donec luctus, augue et cursus semper, metus augue vehicula metus, non ultricies sem mi eget erat. Etiam blandit, nibh et hendrerit consectetur, elit neque tempor nunc, vestibulum fermentum orci neque sed ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
           </div>
         </div>
       </div>
