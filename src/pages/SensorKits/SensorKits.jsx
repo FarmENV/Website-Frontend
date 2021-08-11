@@ -22,7 +22,7 @@ class KitsSensor extends React.Component {
             <img src={Temperature} alt="kit" width="70%" height="70%"/>
           </div>
           <div className="Info__sensor_info">
-            <h3 className="Info__title_sensor font-face-ap">SENSOR de temperatura</h3>
+            <h3 className="Info__title_sensor font-face-ap">Sensor de temperatura</h3>
             <p className="Info__paragraph_kit">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend felis sapien, eget condimentum elit gravida sed. Ut sodales turpis eget lacinia ullamcorper. Donec luctus, augue et cursus semper, metus augue vehicula metus, non ultricies sem mi eget erat. Etiam blandit, nibh et hendrerit consectetur, elit neque tempor nunc, vestibulum fermentum orci neque sed ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
           </div>
         </div>
