@@ -15,30 +15,27 @@ class freQuestions extends React.Component {
                         <h1 className="Frequent__title">PREGUNTAS FRECUENTES</h1>
                         <div className="Topics">
                             <div className="Topics__content">
-                                <h3 className="topic__title">Topic 1</h3>
-                                <h3 className="topic__title">Topic 2</h3>
-                                <h3 className="topic__title">Topic 3</h3>
-                                <h3 className="topic__title">Topic 4</h3>
-                                <h3 className="topic__title">Topic 5</h3>
-                                <h3 className="topic__title">Topic 6</h3>
+                                <h3 className="topic__title">Temas</h3>
+                                <h3 className="topic__title">Aplicación FarmENV</h3>
+                  
                             </div>
                         </div>
                         <div className="Questions">
                                 <div className="questions__content">
-                                    <h3>Pregunta 1</h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque quisquam excepturi facilis nam possimus deleniti illo dolor voluptatibus, delectus, distinctio labore minus blanditiis praesentium, veniam totam eum quod nemo? Mollitia.</p>
+                                    <h3>¿Puedo tener varios kits en la aplicación móvil?</h3>
+                                    <p>La aplicación movil de FarmENV te permite tener uno o más kits. <br />Al comprar varios sistemas puedes registrarlos desde tu dispositivo.</p>
                                     <hr />
-                                    <h3>Pregunta 2</h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque quisquam excepturi facilis nam possimus deleniti illo dolor voluptatibus, delectus, distinctio labore minus blanditiis praesentium, veniam totam eum quod nemo? Mollitia.</p>
+                                    <h3>¿Es posible cambiar el ID de mi arduino?</h3>
+                                    <p>No es posible, el ID se encuentra en el código del arduino, ya que cada uno es único para cada arduino.</p>
                                     <hr />
-                                    <h3>Pregunta 3</h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque quisquam excepturi facilis nam possimus deleniti illo dolor voluptatibus, delectus, distinctio labore minus blanditiis praesentium, veniam totam eum quod nemo? Mollitia.</p>
+                                    <h3>¿Puedo revisar mis ambientes en diferentes dispositivos y cuentas?</h3>
+                                    <p>FarmENV te permite revisar tus ambientes desde cualquier dispositivo o cuenta. <br /> Sin embargo solo puedes editar tus ambientes desde tu propia cuenta. </p>
                                     <hr />
-                                    <h3>Pregunta 4</h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque quisquam excepturi facilis nam possimus deleniti illo dolor voluptatibus, delectus, distinctio labore minus blanditiis praesentium, veniam totam eum quod nemo? Mollitia.</p>
-                                    
-                                    <h3>Pregunta 5</h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque quisquam excepturi facilis nam possimus deleniti illo dolor voluptatibus, delectus, distinctio labore minus blanditiis praesentium, veniam totam eum quod nemo? Mollitia.</p>
+                                    <h3>¿Es posible cambiar los sensores de mi sistema?</h3>
+                                    <p>Para que esto sea posible el sensor debe ser del mismo modelo que el anterior por el cual lo desea cambiar</p>
+                                    <hr />
+                                    <h3>¿Qué pasa si registro mal el ID de mi sistema?</h3>
+                                    <p>Si es equivocado, se te notificará para que puedar modificarlo o eliminar el sistema ya registrado.</p>
                                 </div>
                         </div>
                     </div>

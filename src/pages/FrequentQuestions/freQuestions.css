@@ -3,7 +3,7 @@
 }
 .Frequent__title{
     font-size: 4em;
-    margin-top: 3em;
+    margin-top: 35vh;
     
 }
 .Topics{
@@ -24,13 +24,14 @@
 
 .Questions{
     background-color: #7E6659;
-    margin-top: -24em;
+    margin-top: -16vh;
     margin-left: 20em;
     border-radius: 10px;
     width: 55em;
     height: auto;
     text-align: left;
     color: #EFEFEF;
+    margin-bottom: 13vh;
 }
 .questions__content{
     margin: 1em;
@@ -38,5 +39,5 @@
 
 .footer__Content{
     display: flex;
-    margin-top: 800px;
+    margin-top: 850px;
 }
