@@ -13,10 +13,10 @@ const LandingPage = props => {
   return(
     <React.Fragment>
       <div className="Landing">
-        <Navbar theme={"Navbar__transparent"}></Navbar>
         <div className="Landing__content font-face-ap">
           <h1 className="Landing__title">LA CALIDAD DE<br/>TU CUIDADO</h1>
         </div>
+      <Navbar theme={"Navbar__transparent"}></Navbar>
       <Hero heroImage={HeroImage} h={'100vh'} w={"100%"}></Hero>
         <div className="Info__content_whatis">
           <h3 className="Info__title font-face-ap">¿QUÉ ES FarmENV?</h3>
