@@ -16,9 +16,9 @@
 .Navbar__transparent {
     display: flex;
     align-content: center;
-    height: 8vh;
+    height: 12%;
     width: 100%;
-    background-color: rgba(20, 12, 5, 0.80);
+    background-color: rgba(20, 12, 5, 0.7);
     position: absolute;
     z-index: 2;
 }
@@ -29,17 +29,17 @@
 }
 
 .link {
-    margin-left: 13vh;
+    margin-left: 1vh;
 }
 
 .nav__links{
     text-decoration: none;
     color: white;
+    font-family: 'AdventurePro', cursive;
 }
 
 .Links__list {
     display: flex;
-    margin-top: 1.5vh;
-    margin-left: 100vh;
+    margin-left: 76vh;
     justify-content: space-around;
 }

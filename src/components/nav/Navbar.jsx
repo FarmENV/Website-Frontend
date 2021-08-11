@@ -14,22 +14,22 @@ const Navbar = props => {
           <div className="Links__list mt-4">
           <div className="link">
               <Link to="/faq" className="nav__links">
-                <p>Preguntas frecuentes</p>
+                <p style={{'fontSize': '16px'}}>Preguntas frecuentes |</p>
               </Link>
             </div>
             <div className="link" >
               <Link to="sensorKits" className="nav__links">
-                <p>Kits</p>
+                <p style={{'fontSize': '16px'}}>Kits |</p>
               </Link>
             </div>
             <div className="link" >
               <Link to="/login" className="nav__links">
-                <p>Ayuda</p>
+                <p style={{'fontSize': '16px'}}>Ayuda |</p>
               </Link>
             </div>
             <div className="link" >
               <Link  to="/contact"className="nav__links">
-                <p>Contacto</p>
+                <p style={{'fontSize': '16px'}}>Contacto |</p>
               </Link>
             </div>
           </div>
