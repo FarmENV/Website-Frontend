@@ -1,0 +1,93 @@
+.Help__content {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    margin-top: 0vh;
+    flex-direction: row;
+    justify-content: initial;
+    align-items:initial;
+    position: initial;
+    z-index: 2;
+}
+
+.Help hr {
+    margin-top: 10vh;
+    width: 80%;
+}
+
+
+.font-face-ap {
+    font-family: "AdventProBold";
+}
+
+.Info__title {
+    font-size: 3em;
+    margin-bottom: 4vh;
+}
+
+.Info__paragraph {
+    margin-left: 50vh;
+    margin-right: 50vh;
+    font-size: 1em;
+}
+
+.Info__content {
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.Info__content_help {
+    margin-top: 4vh;
+    display: flex;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+.Info__kit_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 12vh;
+}
+
+.Info__kit_img img{
+    height: 45vh;
+}
+
+
+.Info__help_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: stretch;
+    position: relative;
+    margin-top: 15vh;
+    margin-left: 0vh;
+    width: 40em;
+}
+
+.Info__paragraph_kit{
+    font-size: 18px;
+}
+
+.Info__help_img{
+    margin-top: 8vh;
+    margin-bottom: 0vh;
+    margin-right: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: baseline;
+    position: sticky;
+    background-size: 60%;
+}

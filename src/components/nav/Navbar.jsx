@@ -23,7 +23,7 @@ const Navbar = props => {
               </Link>
             </div>
             <div className="link" >
-              <Link to="/login" className="nav__links">
+              <Link to="/help" className="nav__links">
                 <p>Ayuda</p>
               </Link>
             </div>
