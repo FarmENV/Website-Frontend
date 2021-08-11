@@ -10,12 +10,14 @@
 }
 
 .Landing__title {
+    margin-top: 10%;
     text-align: center;
     font-size: 5em;
     color:white;
     font-weight: bold;
     text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.6);
-    font-family: 'AdventurePro', cursive;
+    font-family: 'Advent Pro', cursive;
+    font-weight: 500;
 }
 
 .Landing hr {
@@ -23,26 +25,26 @@
     width: 80%;
 }
 
-.font-face-ap {
-    font-family: "AdventProBold";
-}
-
 .Info__title {
     font-size: 3em;
     margin-bottom: 4vh;
+    font-family: 'Advent Pro', cursive;
+    font-weight: 500;
 }
 
 .Info__paragraph {
     margin-left: 50vh;
     margin-right: 50vh;
     font-size: 1em;
+    font-family: 'Roboto Condensed', cursive;
+    font-weight: 500;
 }
 
 .Info__content {
     margin-top: 8vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    text-align: justify;
     align-items: center;
     position: relative;
 }
@@ -53,9 +55,11 @@
     margin-left: 40vh;
     margin-right: 40vh;
     flex-direction: row;
-    justify-content: center;
+    text-align: justify;
     align-items: center;
     position: relative;
+    font-family: 'Roboto Condensed', cursive;
+    font-weight: 500;
 }
 
 .Info__kit_img {
@@ -107,4 +111,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
+}
+
+#estiloHR{
+    height: 2px;
+    width: 80%;
+    margin: 10%;
 }

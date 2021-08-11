@@ -1,28 +1,37 @@
 import React from 'react'
 import './Footer.css'
-import FarmLogo from '../../images/farmlogo.png'
+import FooterLogo from '../../images/farmlogo.png'
+import Facebook from '../../images/faceIcon.png'
+import Twitter from '../../images/instaIcon.png'
+import Instagram from '../../images/twitterIcon.png'
 
 const Footer = (props) => {
   return (
-    <React.Fragment>
-      <div className="Footer" style={props.s}>
-        <div className="footer__content">
-          <div className="footer__element">
-            <img src={FarmLogo} alt="Logo" />
+    <div className="main-footer">
+      <div className="container">
+        <div className="row">
+          <div className="col">
+              <img src={FooterLogo} alt="Logo" className="img"/>
           </div>
-          <div className="footer__element">
-            <h1>Redes Sociales</h1>
-          </div>
-          <div className="footer__element">
-            <p>Avisos Legales</p>
-            <p>Terminos y Condiciones</p>
-            <p>FAQ</p>
-            <p>Seguridad</p>
+          <div className="col">
+            <h1 style={{"marginLeft":"25px"}}>Redes Sociales</h1>
+              <tr>
+                <th><img src={Facebook} alt="Facebook" className="social-img"/></th>
+                <th><img src={Instagram} alt="Instagram" className="social-img"/></th>
+                <th><img src={Twitter} alt="Twitter" className="social-img"/></th>
+              </tr>
           </div>
         </div>
+        <hr />
+        <div className="row">
+          <p className="col-sm">
+            &copy;{new Date().getFullYear()} FARMENV | DERECHOS Reservados |
+            Terminos Y Condiciones | Privacidad
+          </p>
+        </div>
       </div>
-    </React.Fragment>
-  )
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;

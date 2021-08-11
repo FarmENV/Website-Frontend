@@ -14,7 +14,7 @@
 .Contact__info{
     background-color: #7E6659;
     border-radius: 10px;
-    width: 87vh;
+    width: 100vh;
     height: 40vh;
     text-align: left;
     color: #EFEFEF;
@@ -23,7 +23,7 @@
     justify-content: center;
     align-items: center;
     position: initial;
-    margin-left: 65vh;
+    margin-left: 50vh;
     margin-top: 30vh;
 }
  

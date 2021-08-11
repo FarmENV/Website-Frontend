@@ -14,7 +14,7 @@ const Navbar = props => {
           <div className="Links__list mt-4">
           <div className="link">
               <Link to="/faq" className="nav__links">
-                <p style={{'fontSize': '16px'}}>Preguntas frecuentes |</p>
+                <p style={{'fontSize': '16px'}}>FAQ |</p>
               </Link>
             </div>
             <div className="link" >
@@ -24,7 +24,7 @@ const Navbar = props => {
             </div>
             <div className="link" >
               <Link to="/help" className="nav__links">
-                <p>Ayuda</p>
+                <p style={{'fontSize': '16px'}}>Ayuda |</p>
               </Link>
             </div>
             <div className="link" >

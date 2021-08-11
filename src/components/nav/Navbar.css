@@ -1,7 +1,7 @@
 .Navbar {
     display: flex;
     align-content: center;
-    height: 8vh;
+    height: 12%;
     width: 100%;
     background-color: rgb(20, 12, 5);
     position: absolute;
@@ -36,11 +36,11 @@
 .nav__links{
     text-decoration: none;
     color: white;
-    font-family: 'AdventurePro', cursive;
+    font-family: 'Roboto Condensed', cursive;
 }
 
 .Links__list {
     display: flex;
-    margin-left: 76vh;
+    margin-left: 155vh;
     justify-content: space-around;
 }

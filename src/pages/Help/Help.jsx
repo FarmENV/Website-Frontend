@@ -26,11 +26,11 @@ class Help extends React.Component {
                 <img src={Username} alt="kit" width="80%" height="80%"/>
             </div>
           <div className="Info__help_info">
-            <h3 className="Info__title_sensor font-face-ap">Cambio de nombre de usuario</h3>
+            <h3 className="Info__title_sensor">Cambio de nombre de usuario</h3>
             <p className="Info__paragraph_kit">Ve a "configuración del perfil" para seleccionar la opción de cambio de nombre. Una vez dentro, coloca el nuevo nombre de usuario que deseas utilizar y presiona "guardar". NOTA: Si el nombre ya está en uso, se verá el siguiente mensaje "Este Username ya está en uso".</p>
           </div>
         </div>
-        <hr />
+        <hr id="estiloHR"/>
         <div className="Info__content_help">
         <div className="Info__help_img" >
             <img src={UserSettings} alt="kit" width="80%" height="80%"/>
@@ -40,7 +40,7 @@ class Help extends React.Component {
             <p className="Info__paragraph_kit">En la barra inferior, se encuentran dos íconos. En el primero podrás encontrar tu perfil de usuario donde tendrás acceso a la sección de ayuda, cambio de nombre y un acceso a tus ambientes registrados.</p>
           </div>
         </div>
-        <hr />
+        <hr id="estiloHR"/>
         <div className="Info__content_help">
         <div className="Info__help_img" >
             <img src={Newenvir} alt="kit" width="80%" height="80%"/>
@@ -50,7 +50,7 @@ class Help extends React.Component {
             <p className="Info__paragraph_kit">Al seleccionar la opción "ambientes", tendrás acceso a una vista previa de todos tus ambientes creados. Si se desea agregar uno nuevo, solo es necesario seleccionar la opción "Crear nuevo ambiente" en la parte superior.</p>
           </div>
         </div>
-        <hr />
+        <hr id="estiloHR"/>
         <div className="Info__content_help">
         <div className="Info__help_img" >
             <img src={SystemName} alt="kit" width="80%" height="80%"/>
@@ -60,7 +60,7 @@ class Help extends React.Component {
             <p className="Info__paragraph_kit">Al seleccionar la opción "Crear nuevo ambiente", aparecerá la siguiente pantalla, donde deberá registrar su ambiente con un nombre personalizado que pueda identificar, seleccione el tipo de animal del que FarmENV se hará cargo y finalmente registrará el mismo ID de sistema que se adjuntó en el kit comprado con anterioridad.</p>
           </div>
         </div>
-        <hr />
+        <hr id="estiloHR"/>
         <div className="Info__content_help">
         <div className="Info__help_img" >
             <img src={RepeatId} alt="kit" width="80%" height="80%"/>
@@ -71,7 +71,7 @@ class Help extends React.Component {
 Si el ID registrado no existe o no es el correcto, se mostrará el siguiente mensaje. De ser este el caso, se tendrá la opción de eliminar el ambiente completo o cambiar únicamente el ID por uno nuevo, seleccione una de las dos opciones.</p>
           </div>
         </div>
-        <hr />
+        <hr id="estiloHR"/>
         <div className="Info__content_help">
         <div className="Info__help_img" >
             <img src={ModifyName} alt="kit" width="80%" height="80%"/>
@@ -81,7 +81,7 @@ Si el ID registrado no existe o no es el correcto, se mostrará el siguiente men
             <p className="Info__paragraph_kit">Para modificar nombre, ID o tipo de animal que se seleccionó con anterioridad, solo hace falta seleccionar la opción "Modificar" que se encuentra en la parte superior de los datos del interior del ambiente.</p>
           </div>
         </div>
-        <hr />
+        <hr id="estiloHR"/>
         <div className="Info__content_help">
         <div className="Info__help_img" >
             <img src={Update} alt="kit" width="80%" height="80%"/>
@@ -91,7 +91,7 @@ Si el ID registrado no existe o no es el correcto, se mostrará el siguiente men
             <p className="Info__paragraph_kit">Al seleccionar la opción "Modificar", se mostrará la siguiente pantalla donde se realizarán los cambios en el campo deseado.</p>
           </div>
         </div>
-        <hr />
+        <hr id="estiloHR"/>
         <div className="Info__content_help">
         <div className="Info__help_img" >
             <img src={Delete} alt="kit" width="80%" height="80%"/>
@@ -101,7 +101,7 @@ Si el ID registrado no existe o no es el correcto, se mostrará el siguiente men
             <p className="Info__paragraph_kit">En caso de desearse la eliminación de un ambiente en específico, deberá realizarse el mismo método que la de modificación. Una vez dentro del modo "Modificar", será necesario seleccionar la opción del cesto de basura a un lado del botón "actualizar". Una vez hecho esto, seleccione "Eliminar".</p>
           </div>
         </div>
-        <hr />
+        <hr id="estiloHR"/>
         <div className="Info__content_help">
         <div className="Info__help_img" >
             <img src={ProfilePic} alt="kit" width="80%" height="80%"/>

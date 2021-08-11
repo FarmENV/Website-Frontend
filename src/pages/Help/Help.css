@@ -91,3 +91,22 @@
     position: sticky;
     background-size: 60%;
 }
+
+.Info__paragraph_kit { 
+    font-size: 1em;
+    font-family: 'Roboto Condensed', cursive;
+    font-weight:500;
+}
+
+.Info__title_sensor {
+    font-size: 3em;
+    margin-bottom: 4vh;
+    margin-top: 150px;
+    font-family: 'Advent Pro', cursive;
+}
+
+#estiloHR{
+    height: 2px;
+    width: 80%;
+    margin: 10%;
+}
