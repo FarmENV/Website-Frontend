@@ -24,7 +24,7 @@ const LandingPage = props => {
         </div>
         <hr/>
         <div className="Info__content">
-          <h3 className="Info__title font-face-ap">¿CÓMO FUNCTIONA?</h3>
+          <h3 className="Info__title font-face-ap">¿CÓMO FUNCIONA?</h3>
           <p className="Info__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend felis sapien, eget condimentum elit gravida sed. Ut sodales turpis eget lacinia ullamcorper. Donec luctus, augue et cursus semper, metus augue vehicula metus, non ultricies sem mi eget erat. Etiam blandit, nibh et hendrerit consectetur, elit neque tempor nunc, vestibulum fermentum orci neque sed ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
           <div className="silhouettes">
             <img src={PigSilhouette} alt="pig"/>

@@ -1,0 +1,45 @@
+.Contact__content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    margin-top: 0vh;
+    flex-direction: row;
+    justify-content: initial;
+    align-items:initial;
+    position: initial;
+    z-index: 2;
+}
+ 
+.Verify__info{
+    background-color: #4E7626;
+    border-radius: 10px;
+    width: 87vh;
+    height: 40vh;
+    text-align: left;
+    color: #EFEFEF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: initial;
+    margin-left: 65vh;
+    margin-top: 30vh;
+}
+ 
+p{
+    font-size: 23px;
+}
+.questions__content{
+    margin: 1em;
+    text-align: center;
+    color: #ffffff;
+}
+ 
+.Farm_email{
+    color: rgb(20, 12, 5);
+    margin-top: 30px;
+}
+.footer__Contentc{
+    display: flex;
+    margin-top: 100px;
+}
