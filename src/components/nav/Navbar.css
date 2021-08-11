@@ -29,7 +29,7 @@
 }
 
 .link {
-    margin-left: 15vh;
+    margin-left: 13vh;
 }
 
 .nav__links{
@@ -41,5 +41,5 @@
     display: flex;
     margin-top: 1.5vh;
     margin-left: 100vh;
-    justify-content: space-between;
+    justify-content: space-around;
 }
