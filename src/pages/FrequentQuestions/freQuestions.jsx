@@ -8,6 +8,9 @@ class freQuestions extends React.Component {
         return(
             <React.Fragment>
                 <div className="frequentQ">
+                <div className="sensors__content">
+                     <Navbar theme={"Navbar"}></Navbar>  
+                     </div>
                     <div className="Landing__content">
                         <h1 className="Frequent__title">PREGUNTAS FRECUENTES</h1>
                         <div className="Topics">
@@ -41,6 +44,9 @@ class freQuestions extends React.Component {
                     </div>
                 </div>
                 <Navbar theme={"Navbar"}></Navbar>
+                <div className="footer__Content">
+                    <Footer s={{bottom:0}}></Footer>
+                </div>
             </React.Fragment>
         )
     }

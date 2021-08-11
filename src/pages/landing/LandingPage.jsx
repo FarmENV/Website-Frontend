@@ -39,7 +39,7 @@ const LandingPage = props => {
           <div className="Info__kit_info">
             <h3 className="Info__title_kit font-face-ap">KIT DE SENSORES</h3>
             <p className="Info__paragraph_kit">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend felis sapien, eget condimentum elit gravida sed. Ut sodales turpis eget lacinia ullamcorper. Donec luctus, augue et cursus semper, metus augue vehicula metus, non ultricies sem mi eget erat. Etiam blandit, nibh et hendrerit consectetur, elit neque tempor nunc, vestibulum fermentum orci neque sed ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
-            <Button theme={"Button"} contentText={'INFORMACION DEL KIT'} link={"/"}></Button>
+            <Button theme={"Button"} contentText={'INFORMACION DEL KIT'} link={"/sensorKits"}></Button>
           </div>
         </div>
       </div>

@@ -35,3 +35,8 @@
 .questions__content{
     margin: 1em;
 }
+
+.footer__Content{
+    display: flex;
+    margin-top: 800px;
+}

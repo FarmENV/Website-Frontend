@@ -1,5 +1,5 @@
-
-.Landing__content{
+ 
+.Contact__content{
     width: 100%;
     height: 80%;
     display: flex;
@@ -10,7 +10,7 @@
     position: initial;
     z-index: 2;
 }
-
+ 
 .Contact__info{
     background-color: #7E6659;
     border-radius: 10px;
@@ -35,7 +35,7 @@ p{
     text-align: center;
     color: #ffffff;
 }
-
+ 
 .Farm_email{
     color: rgb(20, 12, 5);
     margin-top: 30px;

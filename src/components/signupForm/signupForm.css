@@ -1,4 +1,4 @@
-.LoginForm {
+.SignupForm {
     width: 45vh;
     height: 80vh;
     padding:30px;
@@ -7,7 +7,7 @@
     margin-top: 20vh;
 }
 
-.LoginForm label {
+.SignupForm label {
     color: white;
 }
 
