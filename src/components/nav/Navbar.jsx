@@ -23,8 +23,8 @@ const Navbar = props => {
               </Link>
             </div>
             <div className="link" >
-              <Link to="/login" className="nav__links">
-                <p style={{'fontSize': '16px'}}>Ayuda |</p>
+              <Link to="/help" className="nav__links">
+                <p>Ayuda</p>
               </Link>
             </div>
             <div className="link" >

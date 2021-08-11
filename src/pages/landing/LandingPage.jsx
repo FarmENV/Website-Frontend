@@ -7,7 +7,7 @@ import Kit from '../../images/kit.png'
 import Button from '../../components/mainButton/MainButton'
 import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/nav/Navbar'
-import HeroImage from '../../images/heroBackground.png'
+import HeroImage from '../../images/chickenBackg.jpeg'
 
 const LandingPage = props => {
   return(

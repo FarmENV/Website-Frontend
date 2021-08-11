@@ -10,6 +10,7 @@ import Signup from './pages/signup/signup'
 import NewEnv from './pages/NewEnv/newEnv'
 import KitsSensor from './pages/SensorKits/SensorKits'
 import Contactus from './pages/Contactus/contact'
+import Help from './pages/Help/Help'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route exact path='/newenv' component={NewEnv}></Route>
           <Route exact path='/sensorKits' component={KitsSensor}></Route>
           <Route exact path='/contact' component={Contactus}></Route>
+          <Route exact path='/help' component={Help}></Route>
         </Switch>
       </Layout>
     </BrowserRouter>
