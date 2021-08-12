@@ -19,7 +19,7 @@ class Verification extends React.Component {
                                     <h1>¡Felicidades!</h1>
                                     <p>Te haz verificado correctamente</p>
                                     <div className="Farm_email">
-                                        <Button theme={"Verify__button"} contentText={'Inicio'} link={"/"}></Button>
+                                        <Button  theme={"Button"} contentText={'REDIRECCIONAR AL INICIO'} link={"/"}></Button>
                                     </div>
                                 </div>
                         </div>
