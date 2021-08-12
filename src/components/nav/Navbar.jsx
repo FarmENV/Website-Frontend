@@ -13,22 +13,22 @@ const Navbar = props => {
         <div className="links">
           <div className="Links__list mt-4">
           <div className="link">
-              <Link to="/faq" className="nav__links">
+              <Link style={{ textDecoration: 'none', color: 'white' }} to="/faq" className="nav__links">
                 <p style={{'fontSize': '16px'}}>FAQ |</p>
               </Link>
             </div>
             <div className="link" >
-              <Link to="sensorKits" className="nav__links">
+              <Link style={{ textDecoration: 'none', color: 'white' }} to="sensorKits" className="nav__links">
                 <p style={{'fontSize': '16px'}}>Kits |</p>
               </Link>
             </div>
             <div className="link" >
-              <Link to="/help" className="nav__links">
+              <Link style={{ textDecoration: 'none', color: 'white' }} to="/help" className="nav__links">
                 <p style={{'fontSize': '16px'}}>Ayuda |</p>
               </Link>
             </div>
             <div className="link" >
-              <Link  to="/contact"className="nav__links">
+              <Link style={{ textDecoration: 'none', color: 'white' }} to="/contact"className="nav__links">
                 <p style={{'fontSize': '16px'}}>Contacto |</p>
               </Link>
             </div>

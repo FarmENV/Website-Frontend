@@ -1,6 +1,5 @@
- 
-.Contact__content{
-    width: 100%;
+ .Contact__content{
+    width: 50%;
     height: 80%;
     display: flex;
     margin-top: 0vh;
@@ -39,8 +38,4 @@ p{
 .Farm_email{
     color: rgb(20, 12, 5);
     margin-top: 30px;
-}
-.footer__Contentc{
-    display: flex;
-    margin-top: 100px;
 }

@@ -9,10 +9,8 @@ class Contactus extends React.Component {
     render(){
         return (
             <React.Fragment>
-                <div className="contact">
-                <div className="sensors__content">
-                     <Navbar theme={"Navbar"}></Navbar>  
-                     </div>
+                <div>
+                <Navbar theme={"Navbar"}></Navbar>  
                     <div className="Contact__content">
                         <div className="Contact__info">
                                 <div className="questions__content">
@@ -25,10 +23,7 @@ class Contactus extends React.Component {
                         </div>
                     </div>
                 </div>
- 
-                <div className="footer__Contentc">
-                    <Footer s={{bottom:0}}></Footer>
-                </div>
+                <Footer s={{bottom:0}}></Footer>
             </React.Fragment>
         )
     }

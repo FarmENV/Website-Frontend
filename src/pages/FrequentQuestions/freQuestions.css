@@ -1,42 +1,34 @@
-.Landing__content{
-    margin-top: 1em;
-}
-.Frequent__title{
-    font-size: 4em;
-    margin-top: 65vh;
-    
-}
-.Topics{
-    background-color: #4E7626;
-    margin-top: 3.5em;
-    margin-left: -70em;
-    border-radius: 10px;
-}
-.topic__title{
-    margin-top: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    width: 10em;
-    color: #EFEFEF;
-    text-align: center;
+.Questions__content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .Questions{
     background-color: #7E6659;
-    margin-top: 86vh;
     border-radius: 10px;
-    width: 55em;
-    height: auto;
-    text-align: left;
+    width: 55;
+    height: 100%;
+    text-align: center;
     color: #EFEFEF;
     margin-bottom: 20vh;
-}
-.questions__content{
-    margin: 1em;
+    margin-top: 10%;
 }
 
-.footer__Content{
-    display: flex;
-    margin-top: 900px;
+.Questions h3{
+    font-family: 'Advent Pro', cursive;
+    font-weight:600;
+    justify-content: justify;
 }
+
+.Questions p{
+    font-family: 'Roboto Condensed', cursive;
+    font-weight: 500;
+    justify-content: justify;
+}
+
+
+
+

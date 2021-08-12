@@ -20,11 +20,6 @@
     font-weight: 500;
 }
 
-.Landing hr {
-    margin-top: 10vh;
-    width: 80%;
-}
-
 .Info__title {
     font-size: 3em;
     margin-bottom: 4vh;
@@ -66,9 +61,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     position: relative;
-    margin-right: 12vh;
 }
 
 .Info__kit_img img{
@@ -82,15 +76,10 @@
     align-items: center;
     position: relative;
 }
-
-.Info__title_kit {
-    font-size: 3em;
-    margin-bottom: 4vh;
-}
-
-.Info__paragraph_kit {
-    
+.Info__paragraph__kit {
     font-size: 1em;
+    font-family: 'Roboto Condensed', cursive;
+    font-weight: 500;
 }
 
 .silhouettes {
@@ -103,17 +92,7 @@
     margin-left: 8.5vh;
 }
 
-.Info__content_whatis {
-    margin-top: 15vh;
-    margin-bottom: 18vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-#estiloHR{
+#estiloLHR{
     height: 2px;
     width: 80%;
     margin: 10%;
