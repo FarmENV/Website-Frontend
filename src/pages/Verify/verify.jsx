@@ -9,19 +9,19 @@ class Verification extends React.Component {
     render(){
         return (
             <React.Fragment>
-                <div className="contact">
-                <div className="sensors__content">
+                <div>
+                <div>
                      <Navbar theme={"Navbar"}></Navbar>  
-                     </div>
+                </div>
                     <div className="Contact__content">
                         <div className="Verify__info">
-                                <div className="questions__content">
-                                    <h1>¡Felicidades!</h1>
-                                    <p>Te haz verificado correctamente</p>
-                                    <div className="Farm_email">
-                                        <Button  theme={"Button"} contentText={'REDIRECCIONAR AL INICIO'} link={"/"}></Button>
-                                    </div>
+                            <div className="questions__content">
+                                <h1>¡Felicidades!</h1>
+                                <p>Te haz verificado correctamente</p>
+                                <div className="Farm_email">
+                                    <Button  theme={"Button"} contentText={'REDIRECCIONAR AL INICIO'} link={"/"}></Button>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>

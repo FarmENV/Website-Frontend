@@ -4,7 +4,7 @@
     display: flex;
     margin-top: 0vh;
     flex-direction: row;
-    justify-content: initial;
+    justify-content: center;
     align-items:initial;
     position: initial;
     z-index: 2;
@@ -15,15 +15,14 @@
     border-radius: 10px;
     width: 87vh;
     height: 40vh;
-    text-align: left;
     color: #EFEFEF;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: initial;
-    margin-left: 65vh;
+    position:relative;
     margin-top: 30vh;
+    align-self: center;
 }
  
 p{
