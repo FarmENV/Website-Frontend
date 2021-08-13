@@ -1,28 +1,23 @@
  .Contact__content{
     width: 50%;
     height: 80%;
-    display: flex;
-    margin-top: 0vh;
     flex-direction: row;
-    justify-content: initial;
-    align-items:initial;
-    position: initial;
     z-index: 2;
+    align-content:center;
 }
  
 .Contact__info{
     background-color: #7E6659;
     border-radius: 10px;
-    width: 100vh;
-    height: 40vh;
-    text-align: left;
+    width: 50vh;
+    height: 50vh;
+    text-align: center;
     color: #EFEFEF;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: initial;
-    margin-left: 50vh;
+    position: center;
     margin-top: 30vh;
 }
  
