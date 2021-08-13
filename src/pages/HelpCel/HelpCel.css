@@ -6,7 +6,7 @@
     flex-direction: row;
     justify-content: initial;
     align-items:initial;
-    position:static;
+    position: relative;
     z-index: 2;
 }
 
