@@ -16,11 +16,10 @@ class Help extends React.Component {
     render(){
   return(
     <React.Fragment>
-        
-      <div>
-        <div className="HelpCel__content">
+      <div className="HelpCel__content">
             <Navbar theme={"Navbar"}></Navbar>  
-        </div>
+      </div>  
+      <div>
         <div className="Info__content_helpCel">
             <div className="Info__helpCel_imgP" >
                 <img src={Username} alt="kit" width="80%" height="80%"/>
