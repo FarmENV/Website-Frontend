@@ -6,10 +6,10 @@
     align-content:center;
 }
  
-.Contact__info{
+.ContactCel__info{
     background-color: #7E6659;
     border-radius: 10px;
-    width: 90vh;
+    width: 50vh;
     height: 50vh;
     text-align: center;
     color: #EFEFEF;

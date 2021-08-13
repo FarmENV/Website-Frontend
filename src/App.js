@@ -10,6 +10,7 @@ import Signup from './pages/signup/signup'
 import NewEnv from './pages/NewEnv/newEnv'
 import KitsSensor from './pages/SensorKits/SensorKits'
 import Contactus from './pages/Contactus/contact'
+import ContactusCel from './pages/ContactusCel/contactCel'
 import Help from './pages/Help/Help'
 import HelpCel from './pages/HelpCel/HelpCel'
 import Verification from './pages/Verify/verify'
@@ -28,6 +29,7 @@ function App() {
           <Route exact path='/newenv' component={NewEnv}></Route>
           <Route exact path='/sensorKits' component={KitsSensor}></Route>
           <Route exact path='/contact' component={Contactus}></Route>
+          <Route exact path='/contactCel' component={ContactusCel}></Route>
           <Route exact path='/help' component={Help}></Route>
           <Route exact path='/helpCel' component={HelpCel}></Route>
           <Route exact path='/verification' component={Verification}></Route>
