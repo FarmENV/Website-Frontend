@@ -11,10 +11,10 @@ const Footer = (props) => {
       <div className="container">
         <div className="row">
           <div className="col">
-              <img src={FooterLogo} alt="Logo" className="img"/>
+              <img style={{"marginTop":"5px"}} src={FooterLogo} alt="Logo" className="img"/>
           </div>
           <div className="col">
-            <h1 style={{"marginLeft":"25px"}}>Redes Sociales</h1>
+            <h1 style={{"marginLeft":"80px"}}>Redes Sociales</h1>
               <tr>
                 <th><img src={Facebook} alt="Facebook" className="social-img"/></th>
                 <th><img src={Instagram} alt="Instagram" className="social-img"/></th>
